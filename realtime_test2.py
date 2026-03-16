@@ -15,7 +15,7 @@ import os
 # 설정
 # ================================
 
-MODEL_PATH  = './best_horiya2_3.pt'
+MODEL_PATH  = './train_model/best_horiya2_11.pt'
 SCALE       = 2
 N_CLASS     = 2
 CLASSES     = ['non-wakeword', 'wakeword']

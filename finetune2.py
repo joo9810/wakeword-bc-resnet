@@ -129,7 +129,7 @@ if __name__ == "__main__":
         if val_acc > best_acc:
             best_acc   = val_acc
             best_model = copy.deepcopy(model)
-            torch.save(best_model.state_dict(), f"{CHECKPOINT_FILE}_{epoch+1}.pt")
+            torch.save(best_model.state_dict(), f"./train_model/{CHECKPOINT_FILE}_{epoch+1}.pt")
             print(" (New Best!)")
         else:
             print()
